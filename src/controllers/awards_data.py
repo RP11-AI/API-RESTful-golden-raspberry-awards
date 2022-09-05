@@ -63,7 +63,7 @@ class CSV(Resource):
         if type(response['id']) != int:
             info = '<p>the id entered must be valid</p>'
         else:
-            if not response['year'].isdigit():
+            if not response['year'].isdigit() and response['year'] != "NONE":
                 info = '<p>the year entered must be valid</p>'
             else:
                 df = ['title', 'studios', 'producers', 'winner']
