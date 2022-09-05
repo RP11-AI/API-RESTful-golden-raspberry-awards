@@ -1,0 +1,11 @@
+{
+  "database": "src\\data\\movielist.csv",
+  "delimiter": ";",
+  "producer_replace": ", ",
+  "find_columns": {
+    "year": "year",
+    "producers": "producers",
+    "winner": "winner",
+    "winner_condition": "yes"
+  }
+}
